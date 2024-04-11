@@ -6,8 +6,9 @@ const data = [
     subtitle: "Online bus booking application",
     image: "",
     details: [
-      "Built using Flutter and Firebase.",
       "Utilized MVC architecture.",
+      "Built using Flutter and Firebase.",
+      "Used DIO and interceptors for API requests.",
       "Incorporated Riverpod for Global state management.",
     ],
   },
@@ -16,8 +17,9 @@ const data = [
     subtitle: "Online bus booking application",
     image: "",
     details: [
-      "Built using Flutter and Firebase.",
       "Utilized MVC architecture.",
+      "Built using Flutter and Firebase.",
+      "Used DIO and interceptors for API requests.",
       "Incorporated Riverpod for Global state management.",
     ],
   },
@@ -26,8 +28,9 @@ const data = [
     subtitle: "Online bus booking application",
     image: "",
     details: [
-      "Built using Flutter and Firebase.",
       "Utilized MVC architecture.",
+      "Built using Flutter and Firebase.",
+      "Used DIO and interceptors for API requests.",
       "Incorporated Riverpod for Global state management.",
     ],
   },
@@ -38,7 +41,7 @@ const root = document.getElementById("projects");
 data.forEach((e) => {
   root.insertAdjacentHTML(
     "beforeEnd",
-    `<section class="project_sec">
+    `<section class="grid_sec">
       <div class="image_sec">
         <img
           src="https://raw.githubusercontent.com/masanthimanshu/node-resume/main/public/images/EMICalculator.png"
@@ -55,6 +58,7 @@ data.forEach((e) => {
           <li><p>${e.details[0]}</p></li>
           <li><p>${e.details[1]}</p></li>
           <li><p>${e.details[2]}</p></li>
+          <li><p>${e.details[3]}</p></li>
         </ul>
         <br />
         <br />
