@@ -26,6 +26,13 @@
   font-size: 2.5rem;
 }
 
+.my_image {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 60%;
+  border: 6px solid black;
+}
+
 .grid_sec {
   display: flex;
   margin: 10rem 5rem;
@@ -34,6 +41,7 @@
 
 .image_sec {
   width: 55vw;
+  text-align: center;
 }
 
 .text_sec {

@@ -5,6 +5,7 @@
 }
 
 .image_sec:hover {
+  scale: 1.1;
   transform: translateX(2rem);
 }
 
