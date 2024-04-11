@@ -1,0 +1,40 @@
+.hero_sec {
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero_sec h1 {
+  font-size: 8rem;
+  font-family: "Alex Brush";
+}
+
+.hero_sec h2 {
+  font-weight: 100;
+  font-style: italic;
+  font-size: 2.25rem;
+  letter-spacing: 1rem;
+}
+
+.project_sec {
+  gap: 2rem;
+  display: grid;
+  margin: 2rem 4rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.text_sec h2 {
+  font-size: 2.5rem;
+}
+
+.text_sec h3 {
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: "Poppins";
+}
+
+.text_sec p {
+  font-size: 1.5rem;
+}

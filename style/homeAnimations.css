@@ -1,0 +1,26 @@
+.image_sec,
+.light_btn,
+.dark_btn {
+  transition: 0.5s;
+}
+
+.image_sec:hover {
+  transform: translateX(2rem);
+}
+
+.light_btn:hover {
+  scale: 1.1;
+  color: white;
+  background-color: black;
+}
+
+.dark_btn:hover {
+  scale: 1.1;
+  color: black;
+  background-color: transparent;
+}
+
+.light_btn:hover ~ .dark_btn {
+  color: black;
+  background-color: white;
+}
