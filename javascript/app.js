@@ -62,8 +62,12 @@ data.forEach((e) => {
         </ul>
         <br />
         <br />
-        <button class="light_btn">Live Preview</button>
-        <button class="dark_btn">Github</button>
+        <button class="light_btn">
+          Live Preview &nbsp; &nbsp; <i class="fa-solid fa-globe"></i>
+        </button>
+        <button class="dark_btn">
+          Github &nbsp; &nbsp; <i class="fa-brands fa-github"></i>
+        </button>
       </div>
     </section>`
   );
