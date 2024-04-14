@@ -88,8 +88,7 @@ appData.forEach((e) => {
           <li><p>${e.details[2]}</p></li>
           <li><p>${e.details[3]}</p></li>
         </ul>
-        <br />
-        <br />
+        <br /><br />
         <button class="light_btn">
           Live Preview &nbsp; &nbsp; <i class="fa-solid fa-globe"></i>
         </button>
@@ -125,8 +124,7 @@ webData.forEach((e) => {
           <li><p>${e.details[2]}</p></li>
           <li><p>${e.details[3]}</p></li>
         </ul>
-        <br />
-        <br />
+        <br /><br />
         <button class="light_btn">
           Live Preview &nbsp; &nbsp; <i class="fa-solid fa-globe"></i>
         </button>
