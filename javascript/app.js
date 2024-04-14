@@ -4,6 +4,7 @@ const appData = [
   {
     title: "OTT Mobile App",
     subtitle: "OTT mobile app built using Flutter",
+    link: "",
     image: "",
     details: [
       "Used Flutter to build the front end.",
@@ -15,6 +16,7 @@ const appData = [
   {
     title: "BusTM Application",
     subtitle: "Online bus booking application",
+    link: "",
     image: "",
     details: [
       "Utilized MVC architecture.",
@@ -26,6 +28,7 @@ const appData = [
   {
     title: "Flutter Firebase Chat App",
     subtitle: "Chat app built using Flutter and Firebase",
+    link: "",
     image: "",
     details: [
       "Used Flutter to build the front end.",
@@ -37,6 +40,7 @@ const appData = [
   {
     title: "Billing App",
     subtitle: "POS App made for shopkeepers for billing",
+    link: "",
     image: "",
     details: [
       "Used Flutter to Build the Frontend.",
@@ -49,14 +53,51 @@ const appData = [
 
 const webData = [
   {
-    title: "OTT Mobile App",
-    subtitle: "OTT mobile app built using Flutter",
+    title: "OTT Website",
+    subtitle: "OTT Website build using ReactJS",
+    link: "",
     image: "",
     details: [
-      "Used Flutter to build the front end.",
+      "Used Axios for API requests.",
       "Integrated Rest APIs to get movie data.",
-      "Used DIO and interceptors for API requests.",
-      "Incorporated Riverpod for Global state management.",
+      "Used ReactJS and Material UI to Build the frontend.",
+      "Incorporated React Context API for Global state management.",
+    ],
+  },
+  {
+    title: "BUS-TM Dashboard",
+    subtitle: "ReactJS web app for Managing Mobile app",
+    link: "",
+    image: "",
+    details: [
+      "Used ReactJS and Material UI to Build the frontend.",
+      "Used ChartJS to show the data Visually on the dashboard.",
+      "Incorporated React Context API for Global state management.",
+      "Used Firebase as a backend for this application to manage data.",
+    ],
+  },
+  {
+    title: "Happiness Valley",
+    subtitle: "NodeJS Handlebars based website",
+    link: "",
+    image: "",
+    details: [
+      "Used HTML and CSS to develope the frontend.",
+      "Used NodeJS Handlebars to Build the website.",
+      "Utilized MVC Architecture to develop the Source Code.",
+      "Utilized ES-Lint with Google's Style guide as a reference for code architecture.",
+    ],
+  },
+  {
+    title: "Accounting Bunny Website",
+    subtitle: "SAAS landing page built using Tailwind CSS and Tailblocks",
+    link: "",
+    image: "",
+    details: [
+      "Utilized Tailblocks to build a better looking UI faster.",
+      "Used HTML and Tailwind CSS to develope the frontend.",
+      "Used doodles to make the UI look more attractive and lively.",
+      "Deployed on Cloudflare Pages with CI/CD and Github actions.",
     ],
   },
 ];
