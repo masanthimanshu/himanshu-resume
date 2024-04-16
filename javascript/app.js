@@ -17,7 +17,7 @@ const appData = [
     title: "BusTM Application",
     subtitle: "Online bus booking application",
     link: "",
-    image: "",
+    image: "bus_tm_app.png",
     details: [
       "Utilized MVC architecture.",
       "Built using Flutter and Firebase.",
@@ -68,7 +68,7 @@ const webData = [
     title: "BUS-TM Dashboard",
     subtitle: "ReactJS web app for Managing Mobile app",
     link: "",
-    image: "",
+    image: "bus_tm_dashboard.png",
     details: [
       "Used ReactJS and Material UI to Build the frontend.",
       "Used ChartJS to show the data Visually on the dashboard.",
@@ -100,6 +100,18 @@ const webData = [
       "Deployed on Cloudflare Pages with CI/CD and Github actions.",
     ],
   },
+  {
+    title: "EMI Calculator",
+    subtitle: "SAAS landing page built using Tailwind CSS and Tailblocks",
+    link: "",
+    image: "emi_calculator.png",
+    details: [
+      "Utilized Tailblocks to build a better looking UI faster.",
+      "Used HTML and Tailwind CSS to develope the frontend.",
+      "Used doodles to make the UI look more attractive and lively.",
+      "Deployed on Cloudflare Pages with CI/CD and Github actions.",
+    ],
+  },
 ];
 
 const appRoot = document.getElementById("app_projects");
@@ -112,10 +124,7 @@ appData.forEach((e) => {
     "beforeEnd",
     `<section class="grid_sec">
       <div class="image_sec">
-        <img
-          src="https://raw.githubusercontent.com/masanthimanshu/node-resume/main/public/images/EMICalculator.png"
-          alt="Image"
-        />
+        <img src="/images/apps/${e.image}" alt="Image" />
       </div>
       <div class="text_sec">
         <h2>${e.title}</h2>
@@ -129,7 +138,7 @@ appData.forEach((e) => {
           <li><p>${e.details[2]}</p></li>
           <li><p>${e.details[3]}</p></li>
         </ul>
-        <br /><br />
+        <br />
         <button class="light_btn">
           Live Preview &nbsp; &nbsp; <i class="fa-solid fa-globe"></i>
         </button>
@@ -148,10 +157,7 @@ webData.forEach((e) => {
     "beforeEnd",
     `<section class="grid_sec">
       <div class="image_sec">
-        <img
-          src="https://raw.githubusercontent.com/masanthimanshu/node-resume/main/public/images/EMICalculator.png"
-          alt="Image"
-        />
+        <img src="/images/websites/${e.image}" alt="Image" />
       </div>
       <div class="text_sec">
         <h2>${e.title}</h2>
@@ -165,7 +171,7 @@ webData.forEach((e) => {
           <li><p>${e.details[2]}</p></li>
           <li><p>${e.details[3]}</p></li>
         </ul>
-        <br /><br />
+        <br />
         <button class="light_btn">
           Live Preview &nbsp; &nbsp; <i class="fa-solid fa-globe"></i>
         </button>
