@@ -5,8 +5,8 @@
 }
 
 .image_sec:hover {
-  scale: 1.1;
-  transform: translateX(1rem) rotate(-2deg);
+  scale: 1.05;
+  transform: translateX(0.5rem) rotate(-2deg);
 }
 
 .light_btn:hover {
